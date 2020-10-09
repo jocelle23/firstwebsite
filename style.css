@@ -1,14 +1,7 @@
-/* Requirements for Code
-background, color, font-family, font-size,
- height, margin, padding, text-align */
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital@1&family=Fjalla+One&family=Lobster&family=Sansita+Swashed:wght@600&display=swap');
 
 /* Formatting the background color for the body of my webpage. */
 body { 
-    /*background-image: url(images/background-winter.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;*/
     background-color: #B8F2E6;
 }
 
@@ -115,7 +108,7 @@ p {
     font-size: medium;
 }
 
-/* Formatting the ordered and unordered list on my webpage. */
+/* Formatting the ordered and unordered lists on my webpage. */
 ul, ol {
     list-style-position: inside;
 }
