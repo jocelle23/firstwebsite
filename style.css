@@ -1,0 +1,162 @@
+/* Requirements for Code
+background, color, font-family, font-size,
+ height, margin, padding, text-align */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital@1&family=Fjalla+One&family=Lobster&family=Sansita+Swashed:wght@600&display=swap');
+
+/* Formatting the background color for the body of my webpage. */
+body { 
+    /*background-image: url(images/background-winter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: #B8F2E6;
+}
+
+/* Created a class to center text when applied. */
+.text-centered {
+    text-align: center;
+}
+
+/* Created a class to format a border named box1. */
+.box1 {
+    padding: 2px;
+    margin: 50px auto 30px auto;
+    height: auto;
+    width: 550px;
+    border-radius: 80px;
+    background-color: #FFA69E;
+}
+
+/* Created a class to format a border named box2. */
+.box2 {
+    margin: 0px auto 30px auto; 
+    height: auto;
+    max-width: 400px;
+    border-radius: 200px;
+    background-color: #FFA69E;
+}
+
+/* Created a class to format a border named box3. */
+.box3 {
+    padding: 2px;
+    margin: 25px auto 10px auto; 
+    height: auto;
+    max-width: 200px;
+    border-radius: 200px;
+    background-color: #FFA69E;
+}
+
+/* Created a class to format a border named box4. */
+.box4 {
+    padding: 2px;
+    margin: 25px auto 10px auto; 
+    height: auto;
+    max-width: 200px;
+    border-radius: 200px;
+    background-color: #FFA69E;
+}
+
+/* Created a class to format a specific statement. */
+.statement {
+    font-family: Tahoma, sans-serif;
+    font-size: 36px;
+    color: #5E6472;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Created a class to further format paragraphs when applied. */
+.centerp {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+/* Formatting the image on my webpage. */
+img {
+    display: block;
+    margin: auto;
+    height: auto;  
+    max-width: 30%;
+    max-height: 500px;
+    border-style: outset;
+    border-color: #5E6472;
+    border-width: 15px;
+}
+
+/* Formatting the h1 on my webpage. */
+h1 {
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* Formatting the h2 on my webpage. */
+h2 {
+    font-family: 'Sansita Swashed', 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* Formatting the h3 on my webpage. */
+h3 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* Formatting the paragraphs on my webpage. */
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: medium;
+}
+
+/* Formatting the ordered and unordered list on my webpage. */
+ul, ol {
+    list-style-position: inside;
+}
+
+.codinglist {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.contacts {
+    max-width: 150px;
+}
+
+.codingl {
+    max-width: 315px;
+}
+
+/* Formatting the horizontal lines on my webpage. */ 
+hr {
+    width: 50%;
+    height: 5px;
+    border: 2px solid #5E6472;
+    background-color:#5E6472;
+}
+
+/* Formatting the footer on my webpage. */
+footer {
+    background-color: #AED9E0;
+    margin-top: 40px;
+    padding: 2px;
+    height: 90px;
+}
+
+/* Formatting the links on my webpage. */
+a {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Utilized pseudo-classes to make my links more interactive. */
+a:link    {color:#FFA69E}
+a:visited {color: #5E6472}
+a:hover   {color: #AED9E0}
+a:active  {color: #FAF3DD}
